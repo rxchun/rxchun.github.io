@@ -771,7 +771,8 @@ img[src], img.lazyimg[data-src], video[src], video.lazyvideo[data-src] {
     height: auto;
     border-radius: 50%;
 	border-radius: 50%;
-	background-color: rgb(0 51 143 / 32%);
+	/* background-color: rgb(0 51 143 / 32%); */
+	background-color: rgb(0 0 0 / 80%);
 	padding: 1rem;
 }
 
@@ -1099,7 +1100,8 @@ img.lazyimg1[data-src] {
 
 .downloadAvatar {
     --default: rgb(0 0 0 / 20%);
-    --active: #275efe;
+    /* --active: #275efe; */
+	--active: #000000;
     position: relative;
     border: none;
     outline: none;
