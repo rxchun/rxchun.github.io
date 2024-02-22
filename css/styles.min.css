@@ -175,8 +175,10 @@ a:hover, a:active {
     text-align: center;
     outline: none;
     font-weight: 500;
-    border-color: #4285f4;
-    color: #4285f4;
+    /* border-color: #4285f4; */
+    /* color: #4285f4; */
+	border-color: #000000;
+    color: #000000;
     box-shadow: none;
 	min-width: 79px;
     min-height: 40px;
@@ -201,7 +203,8 @@ a:hover, a:active {
 .promoBar {
     text-align: center;
     width: 100%;
-    background-color: #4285f4;
+    /* background-color: #4285f4; */
+	background-color: #000000;
 	color: #fff;
 }
 
