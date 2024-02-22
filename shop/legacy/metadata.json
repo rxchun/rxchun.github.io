@@ -1,0 +1,15 @@
+{
+	"name": "Legacy",
+	"description": "Responsive Material Design theme with RTL support",
+	"version": "1.21",
+	"update_released": "2023-08-22",
+	
+	"date": "2021-09-01",
+	"theme_uri": "https://rxchun.github.io/shop/legacy",
+	"update_uri": "https://rxchun.github.io/shop/legacy/metadata.json",
+	"license": "Premium",
+	
+	"author": "Chun",
+	"author_uri": "https://rxchun.github.io",
+	"author_blog_uri": "https://twitter.com/TweetChun"
+}
