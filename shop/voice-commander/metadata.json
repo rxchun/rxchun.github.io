@@ -1,0 +1,15 @@
+{
+	"name": "AI Voice Commander",
+	"description": "A Q2A plugin that allows you to Search, Navigate and interact with your Q2A website trough voice commands.",
+	"version": "1.0",
+	"update_released": "2024-03-12",
+	
+	"date": "2024-03-12",
+	"theme_uri": "https://rxchun.github.io/shop/voice-commander",
+	"update_uri": "https://rxchun.github.io/shop/voice-commander/metadata.json",
+	"license": "Premium",
+	
+	"author": "Chun",
+	"author_uri": "https://rxchun.github.io",
+	"author_blog_uri": "https://twitter.com/TweetChun"
+}

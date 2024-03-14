@@ -42,6 +42,28 @@ body.page-home {
     user-select: none;
 }
 
+code, tt,
+.markdown-body code, .markdown-body tt {
+    padding: 0.2em 0.4em;
+    margin: 0;
+    font-size: 85%;
+    white-space: break-spaces;
+    background-color: rgba(175, 184, 193, 0.2);
+    border-radius: 6px;
+}
+
+li+li,
+.markdown-body li+li {
+    margin-top: 0.25em;
+}
+
+.divider {
+    width: 90%;
+    border: 1px solid;
+    border-color: rgb(0 0 0 / 10%);
+    margin: 2rem auto;
+}
+
 /* ---------------------- */
 
 /*	#####################
@@ -644,6 +666,7 @@ h1.section-title {
     position: relative;
     overflow: hidden;
     /* border-radius: .5rem; */
+	border-radius: 18px;
 }
 
 .splitContent-image img {
@@ -1340,6 +1363,10 @@ img.lazyimg1[data-src] {
 		padding: 0;
 		background-color: rgb(255 255 255 / 4%);
 	}
+	.carousel {
+		text-align: center;
+	}
+
 }
 
 @media (max-width: 1024px) {
@@ -1481,7 +1508,7 @@ img.lazyimg1[data-src] {
     display: inline-block;
     width: 100%;
     max-width: 240px;
-    /* text-align: center; */
+    text-align: initial;
 	vertical-align: middle;
     color: #727276;
     font-weight: 500;
@@ -1592,7 +1619,7 @@ img.lazyimg1[data-src] {
 
 .sidescription {
     /* color: #3c4043; */
-	font-size: 14px;
+	font-size: 13px;
     border-top: 1px solid #e0e0e0;
     padding-top: 0.5rem;
 }
