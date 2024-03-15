@@ -1,6 +1,6 @@
 
 // Site Version
-var siteVersion = 'v=200';
+var siteVersion = 'v=202';
 
 window.onload	= function() {myFunction()};
 window.onscroll = function() {myFunction()};
@@ -198,7 +198,7 @@ setTimeout(function() {
 	lazyLoadLoop1();
 }, 2800);
 
-/*
+
 $('.siteVersion').each(function() {
     var href = $(this).attr('href');
 	var src = $(this).attr('src');
@@ -211,4 +211,4 @@ $('.siteVersion').each(function() {
         $(this).attr('src', src);
     }
 });
-*/
+
