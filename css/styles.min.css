@@ -1489,6 +1489,9 @@ img.lazyimg1[data-src] {
 
 .slider-container {
     overflow: hidden;
+	background: #191919;
+    padding: 1rem 0 4rem;
+    margin: 0 auto;
 }
 
 .page-reviews .slider-container {

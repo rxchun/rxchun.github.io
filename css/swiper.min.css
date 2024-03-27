@@ -535,12 +535,6 @@ button.swiper-pagination-bullet {
 
 /* Extra New Styles */
 
-.slider-container {
-    background: #191919;
-    padding: 4rem 55px;
-	margin: 0 auto;
-}
-
 .slider-wrapper {
     max-width: 900px;
     margin: 0 auto;
