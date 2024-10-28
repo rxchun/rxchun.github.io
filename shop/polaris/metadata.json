@@ -1,10 +1,10 @@
 {
 	"name": "Polaris",
-	"description": "Responsive Material Design with Dark theme, and RTL support",
-	"version": "2.46",
-	"update_released": "2024-08-22",
+	"description": "Responsive Material Design theme with Dark mode, and RTL support",
+	"version": "2.47",
+	"date": "2024-10-28",
 	
-	"date": "2022-06-27",
+	"theme_released": "2022-06-27",
 	"theme_uri": "https://rxchun.github.io/shop/polaris",
 	"update_uri": "https://rxchun.github.io/shop/polaris/metadata.json",
 	"license": "Premium",
