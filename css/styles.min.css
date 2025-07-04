@@ -691,6 +691,10 @@ h1.section-title {
     text-align: center;
 }
 
+.vertical-imageDisplay img {
+    border-radius: 18px;
+}
+
 img, video {
     /* display: none; */
 	opacity: 0;
