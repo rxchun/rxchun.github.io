@@ -1,6 +1,6 @@
 {
 	"name": "Avatar Cropper",
-	"uri": "https://github.com/rxchun/q2a-avatar-cropper",
+	"uri": "https://rxchun.github.io/shop/avatar-cropper",
 	"description": "Batch crop avatars stored as blobs to square shape.",
 	"version": "1.0",
 	"date": "2025-07-04",
@@ -9,7 +9,7 @@
 	"author": "Chun",
 	"author_uri": "https://rxchun.github.io/?ref=github-q2a-avatar-cropper",
 	"license": "Premium",
-	"update_uri": "https://raw.githubusercontent.com/rxchun/q2a-avatar-cropper/master/metadata.json",
+	"update_uri": "https://rxchun.github.io/shop/avatar-cropper/metadata.json",
 	"max_q2a": "1.8.8",
 	"min_q2a": "1.8.8",
 	"min_php": "5.2",

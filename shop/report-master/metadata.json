@@ -1,6 +1,6 @@
 {
 	"name": "Report Master",
-	"uri": "https://github.com/rxchun/q2a-report-master",
+	"uri": "https://rxchun.github.io/shop/report-master/",
 	"description": "Extends or Replaces Q2A’s default flag system with a customizable report system and user suspension tool.",
 	"version": "1.0",
 	"date": "2025-08-07",
@@ -10,7 +10,7 @@
 	"author": "Chun",
 	"author_uri": "https://rxchun.github.io/?ref=github-q2a-report-master",
 	"license": "Premium",
-	"update_uri": "https://raw.githubusercontent.com/rxchun/q2a-report-master/master/metadata.json",
+	"update_uri": "https://rxchun.github.io/shop/report-master/metadata.json",
 	"max_q2a": "1.8.8",
 	"min_q2a": "1.8.8",
 	"min_php": "5.2",
