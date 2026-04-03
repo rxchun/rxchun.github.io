@@ -361,7 +361,7 @@ const initAvatarAnimation = () => {
  * @param {number} frames - Number of frames for the rolling animation
  * @param {function} [charGenerator] - Optional function to generate random characters
  */
-const rollTextToTarget = (element, targetText, frames = 100, charGenerator) => {
+const rollTextToTarget = (element, targetText, frames = 90, charGenerator) => {
     if (!element) return;
 	
 	const originalText = element.textContent || "";
