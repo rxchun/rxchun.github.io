@@ -114,10 +114,18 @@ const initUIInteractions = () => {
 
         // Close video modal
         else if (target.matches('.videoDarkPane')) {
-            videoContainer?.classList.toggle('show');
-            body?.classList.remove('noScroll');
-            if (mainVideo) mainVideo.innerHTML = mainVideoContent;
-        }
+			videoContainer?.classList.toggle('show');
+			body?.classList.remove('noScroll');
+
+			if (mainVideo) {
+				mainVideo.innerHTML = mainVideoContent;
+
+				// Restore all video thumbnails
+				mainVideo.querySelectorAll('img.loadVideo').forEach(img => {
+					img.src = img.dataset.src;
+				});
+			}
+		}
 
         // Social toggle
         else if (target.matches('.getSocial')) {
