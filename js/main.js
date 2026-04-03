@@ -7,8 +7,6 @@ document.addEventListener('DOMContentLoaded', () => {
     initLazyImages();
     updateCopyrightYear();
 
-    initAvatarAnimation();
-
     // Delay image load slightly so animation feels intentional
     setTimeout(() => {
         lazyLoadImages();
@@ -325,6 +323,8 @@ const initAvatarAnimation = () => {
                 return true;
             }
         });
+		
+		arrow.innerHTML = getPath(state.y, state.f, state.l, state.s);
 
         setTimeout(() => {
             if (avatar.classList.contains('animation')) return;
@@ -349,6 +349,8 @@ const initAvatarAnimation = () => {
         }, 200);
     });
 };
+
+initAvatarAnimation();
 
 /* =============================
    Roll Text Animation
