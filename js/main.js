@@ -400,3 +400,27 @@ const updateCopyrightYear = () => {
         }
     });
 };
+
+
+/**
+ * Appends a version query string to all CSS, JS, and image URLs with class "siteVersion"
+ * @param {string} version - Version string (e.g., "v=205")
+ */
+const applyCacheBusting = (version) => {
+    const elements = document.querySelectorAll('.siteVersion');
+
+    elements.forEach(el => {
+        let attr = el.href ? 'href' : el.src ? 'src' : null;
+        if (!attr) return;
+
+        let url = el[attr];
+        const separator = url.includes('?') ? '&' : '?';
+        el[attr] = `${url}${separator}${version}`;
+        console.log(`Cache-busted: ${el[attr]}`);
+    });
+};
+
+// Apply version at the end of DOMContentLoaded
+document.addEventListener('DOMContentLoaded', () => {
+    applyCacheBusting('v=205');
+});
