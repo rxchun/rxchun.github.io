@@ -13,12 +13,6 @@ document.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => {
         lazyLoadImages();
     }, 1200);
-	
-	// Animate header text after avatar images loaded
-    setTimeout(() => {
-        const header = document.querySelector('.spHeader h3');
-        rollTextToTarget(header, 'Chun');
-    }, 900);
 });
 
 /* =============================
@@ -257,6 +251,12 @@ const lazyLoadImages = () => {
         temp.onload = () => (img.src = src);
         temp.src = src;
     });
+	
+	// Animate header text after avatar images loaded
+    // setTimeout(() => {
+        const header = document.querySelector('.spHeader h3');
+        rollTextToTarget(header, 'Chun');
+    // }, 0);
 };
 
 /* =============================
