@@ -1,0 +1,16 @@
+{
+	"name": "Editor Extension Manager",
+	"uri": "https://rxchun.github.io/shop/q2a-editor-extension",
+	"description": "Extends Question2Answer editors to Wall Posts, Wall Post Comments (WPC plugin), and Private Messages. Includes YouTube embedding, emoji support, and no core file modifications required.",
+	"version": "1.0",
+	"date": "2026-05-18",
+
+	"released": "2026-05-18",
+	"author": "Chun",
+	"author_uri": "https://rxchun.github.io/?ref=plugin-editor-extension",
+	"license": "Premium",
+	"update_uri": "https://rxchun.github.io/shop/q2a-editor-extension/metadata.json",
+	"max_q2a": "1.8.8",
+	"min_q2a": "1.8.6",
+	"load_order": "after_db_init"
+}
