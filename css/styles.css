@@ -330,6 +330,8 @@ a:hover, a:active {
     width: 100%;
     text-align: center;
 	white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .mobileSelectedNav:after {
 	content: "";
@@ -681,6 +683,14 @@ h1.section-title {
 .vertical-imageDisplay img {
     height: 100%;
     width: auto;
+}
+
+.square-imageDisplay {
+    padding-bottom: 75%;
+}
+
+.square-imageDisplay img {
+    width: 75%;
 }
 
 .splitContent-image .splitImage-full {
@@ -1569,6 +1579,12 @@ img.lazyimg1[data-src] {
     pointer-events: none;
 }
 
+.carousel-avatar img {
+    max-width: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
 .no-thumb {
     font-size: 7rem;
     /* font-family: ui-rounded; */
@@ -1860,6 +1876,18 @@ body.black-friday .csMuffin .carousel-slide-wrapper {
     transform: translateY(-50%);
 }
 
+.bannerThumb {
+    position: absolute;
+    top: 50%;
+    right: 15%;
+    transform: translateY(-50%);
+    overflow: hidden;
+    width: 150px;
+}
+.bannerThumb img {
+    pointer-events: none;
+}
+
 .appear {
 	animation: appear .25s linear forwards;
 }
@@ -1991,6 +2019,11 @@ body.black-friday .csMuffin .carousel-slide-wrapper {
 	.bannerInfo {
 		left: 0;
 	}
+    .bannerThumb {
+        top: 40%;
+        right: 0%;
+        width: 100px;
+    }
 }
 
 
